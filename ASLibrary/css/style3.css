@@ -1,0 +1,449 @@
+
+/* All Pages
+==============================*/
+
+html,
+body {
+    height: 100%;
+}
+
+h3 code {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+fieldset {
+    margin-top: 15px;
+}
+
+body > .navbar {
+  font-size: 13px;
+}
+
+form { 
+    margin-bottom: 0px !important; 
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -51px;
+}
+
+#wrap > .container {
+	padding-top: 40px;
+}
+
+#push,
+.push {
+    height: 60px;
+}
+
+.text-error { 
+    color: #b94a48; 
+}
+.text-success { 
+    color: #468847; 
+}
+
+.required { 
+    color: #a00; 
+    font-weight: bold;
+}
+
+.alert { 
+    margin-bottom: 0px; 
+}
+
+.nav .dropdown {
+    margin-top: 5px;
+}
+
+.flags-wrapper {
+    position: absolute;
+    z-index: 2000;
+    top: 10px;
+    right: 50px;
+}
+
+.header-flags-wrapper {
+    float: left;
+    margin-top: 13px;
+}
+
+.flags-wrapper a, .header-flags-wrapper a { text-decoration: none; }
+
+.flags-wrapper img, .header-flags-wrapper img { width: 21px; }
+
+.modal.modal-visible {
+    display: inherit;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+/* Login Page
+================================*/
+
+
+#form-details .form-group, 
+#form-changepassword .form-group {
+    width: 565px;
+}
+
+#loginModal .modal-header {
+    padding: 0 0 0 15px !important;
+}
+
+.modal-backdrop { 
+    background-color: #fff !important; 
+}
+
+.modal { 
+    border: none; top: 7% !important; 
+    overflow-y: auto; 
+}
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+    opacity: 0.5 !important;
+    filter: alpha(opacity=50) !important;
+}
+
+.fade {
+    opacity: 0.65;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.high-opacity {
+    opacity: 0.85;
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+.social-login {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.social-login a:hover { text-decoration: none; }
+.social-login img {
+    width: 140px;
+    margin-left: 5px;
+    height: 31px;
+    cursor: pointer;
+}
+
+
+/* Index Page
+======================================*/
+
+.navbar-brand {
+    max-width: 260px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #777;
+}
+
+.navbar-brand:hover {
+    color: #5e5e5e;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar {
+    background-color: #eee;
+}
+
+.comments { 
+    margin-top: 20px; 
+}
+.comments h3 {
+    margin-bottom: 25px; 
+}
+.comments p { 
+    text-align: justify; 
+}
+
+.comments-comments blockquote {
+    margin: 0 0 15px !important;
+}
+
+.leave-comment {
+    margin-top: 20px;
+}
+
+.leave-comment textarea { 
+    width: 100%; 
+    height: 100px; 
+}
+
+/* Users page
+=======================================*/
+
+.users-wrapper {
+    padding-top: 33px;
+}
+
+.users-table {
+    margin-top: 15px;
+    border: 1px solid #F1F1F1;
+}
+
+.dataTables_wrapper {
+    margin-top: 25px;
+}
+
+select[name='users-list_length'] {
+    border: 1px solid #DFDFDF;
+    padding: 5px 0 5px 7px;
+}
+
+#users-list_filter input[type=text] {
+    padding: 5px 0 5px 3px;
+    border: 1px solid #DFDFDF;
+}
+
+#users-list_wrapper {
+    display: none;
+}
+
+.roles-input {
+margin-top: 33px;
+margin-bottom: 17px;
+}
+
+.roles-input input {
+margin-bottom: 0;
+}
+
+.roles-input button {
+margin-left: 10px;
+}
+
+.roles-table, .roles-table thead {
+  border: 1px solid #F1F1F1;
+}
+
+.roles-table th, .roles-table td {
+  text-align: center;
+}
+
+.btn-user { 
+  max-width: 100px; 
+}
+
+#modal-user-details .dl-horizontal dt {
+    border: 1px solid #DFDFDF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    padding: 5px;
+    background-color: #F4F4F4;
+}
+#modal-user-details .dl-horizontal dd {
+    border: 1px solid #DFDFDF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+    padding: 5px;
+    margin-left: 158px !important;
+    height: 32px;
+    padding-left: 10px;
+}
+
+#modal-user-details .modal-body {
+    padding: 5px 20px;
+}
+
+.form-horizontal .control-label, 
+.form-horizontal .radio-inline, 
+.form-horizontal .checkbox-inline {
+    font-weight: normal;
+}
+
+#confirm-modal h5.text-success {
+    font-size: 16px;
+    text-align: center;
+}
+
+#confirm-modal h4.text-success {
+    font-size: 22px;
+    text-align: center;
+}
+
+
+#ajax-loading, .ajax-loading {
+    padding: 20px;
+    display: none;
+}
+
+.ajax-loading .text {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+section {
+  padding-top: 30px;
+}
+section > .page-header,
+section > .lead {
+  color: #5a5a5a;
+}
+section > ul li {
+  margin-bottom: 5px;
+}
+
+/* Separators (hr) */
+.bs-docs-separator {
+  margin: 40px 0 39px;
+}
+
+/* Faded out hr */
+hr.soften {
+  height: 1px;
+  margin: 70px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
+
+/* Footer
+-------------------------------------------------- */
+
+.footer {
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+  height: 50px;
+}
+
+.footer p {
+	margin: 15px 0 0 0;
+}
+
+/* Icons
+====================================== */
+.the-icons {
+  margin-left: 0;
+  list-style: none;
+}
+.the-icons li {
+  float: left;
+  width: 25%;
+  line-height: 25px;
+}
+.the-icons i:hover {
+  background-color: rgba(255,0,0,.25);
+}
+
+
+/* Sidenav for Docs
+====================================== */
+
+.bs-docs-sidenav {
+  width: 228px;
+  margin: 30px 0 0;
+  padding: 0;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+          box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+.bs-docs-sidenav > li > a {
+  display: block;
+  width: 190px \9;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border: 1px solid #e5e5e5;
+  color: #777;
+}
+.bs-docs-sidenav > li:first-child > a {
+  -webkit-border-radius: 6px 6px 0 0;
+     -moz-border-radius: 6px 6px 0 0;
+          border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > .active > a {
+  position: relative;
+  z-index: 2;
+  padding: 9px 15px;
+  border: 0;
+  text-shadow: 0 1px 0 rgba(0,0,0,.15);
+  -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+     -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+          box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+}
+/* Chevrons */
+.bs-docs-sidenav .glyphicon-chevron-right {
+  float: right;
+  margin-top: 2px;
+  margin-right: -6px;
+  opacity: .25;
+}
+.bs-docs-sidenav > li > a:hover {
+  background-color: #f5f5f5;
+}
+.bs-docs-sidenav a:hover .glyphicon-chevron-right {
+  opacity: .5;
+}
+.bs-docs-sidenav .active .glyphicon-chevron-right,
+.bs-docs-sidenav .active a:hover .glyphicon-chevron-right {
+  opacity: 1;
+}
+.bs-docs-sidenav.affix {
+  top: 40px;
+}
+.bs-docs-sidenav.affix-bottom {
+  position: absolute;
+  top: auto;
+  bottom: 270px;
+}
+
+
+@media (min-width: 1200px) {
+  .bs-docs-container {
+    max-width: 970px;
+  }
+  .bs-docs-sidenav {
+    width: 258px;
+  }
+  .bs-docs-sidenav > li > a {
+    width: 230px \9; /* Override the previous IE8-9 hack */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+  /* Widen masthead and social buttons to fill body padding */
+  .jumbotron {
+    margin-top: -20px; /* Offset bottom margin on .navbar */
+  }
+  /* Adjust sidenav width */
+  .bs-docs-sidenav {
+    width: 166px;
+    margin-top: 20px;
+  }
+  .bs-docs-sidenav.affix {
+    top: 0;
+  }
+}

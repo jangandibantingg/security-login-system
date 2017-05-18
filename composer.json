@@ -1,0 +1,22 @@
+{
+    "name": "loshmis/advanced-security",
+    "description": "Advanced Security - PHP Register/Login System",
+    "keywords": ["advanced", "secure", "login", "user management", "login system"],
+    "type": "project",
+    "require": {
+        "php": ">=5.3.0",
+        "pimple/pimple": "~3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "ASEngine"
+        ],
+        "files": [
+            "ASEngine/ASConfig.php",
+            "ASEngine/ASHelperFunctions.php"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
